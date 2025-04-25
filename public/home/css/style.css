@@ -1,0 +1,215 @@
+.img-logo{width: 130px; height: 40px;}
+/* Estilização do botão flutuante do WhatsApp */
+.whatsapp-button {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 60px;
+    height: 60px;
+    z-index: 1000;
+}
+
+.cor-azul-tema{background-color: #054aab;}
+.whatsapp-button img {
+    width: 100%;
+    border-radius: 50%;
+}
+
+#carouselExample {
+    height: 500px; /* Defina a altura desejada */
+}
+
+#carouselExample .carousel-inner {
+    height: 100%;
+}
+
+#carouselExample .carousel-item {
+    height: 100%;
+}
+
+#carouselExample .carousel-item img {
+    height: 98%;
+    object-fit: cover; /* Para garantir que a imagem cubra o espaço sem distorção */
+}
+.navbar-toggler {
+    border-color: rgba(255, 255, 255, 0.5);
+}
+.navbar-toggler-icon {
+    filter: invert(1);
+}
+.whatsapp-button {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: #25d366;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3);
+}
+.whatsapp-button img {
+    width: 35px;
+}
+
+
+
+.pesquisa-dominio input,
+.pesquisa-dominio select {
+    border-radius: 0;
+    height: 45px;
+}
+
+.pesquisa-dominio button {
+    border-radius: 0;
+    height: 45px;
+}
+.pesquisa-dominio {
+    background-color: #054aab; /* Cor escura igual à da imagem */
+    padding: 20px 0; /* Reduz o espaço interno */
+    margin-top: -8px; /* Ajuste para reduzir o espaço superior */
+}
+
+.porque-nos-escolher{
+    background-color: #054aab; /* Cor escura igual à da imagem */
+    width: 100%;
+}
+
+footer a {
+    text-decoration: none;
+}
+
+
+/*styles da home*/
+.planos-hospedagem {
+    text-align: center;
+    padding: 20px;
+}
+.planos-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+.plano {
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    width: 250px;
+}
+.header {
+    color: #fff;
+    font-weight: bold;
+    padding: 15px;
+    text-align: center;
+}
+.mini { background: #1e293b; }
+.lite { background: #1e293b; }
+.pro { background: #b30000; }
+.plus { background: #1e293b; }
+.destaque { border: 3px solid #b30000; }
+.badge {
+    background: yellow;
+    color: black;
+    font-size: 12px;
+    padding: 3px 6px;
+    margin-left: 5px;
+    border-radius: 3px;
+}
+.plano ul {
+    list-style: none;
+    padding: 10px;
+}
+.plano ul li {
+    padding: 8px;
+    border-bottom: 1px solid #f0f0f0;
+    font-size: 14px;
+}
+.plano ul li:last-child {
+    border-bottom: none;
+}
+
+
+/* Estilizando o modal */
+.modal-content {
+border-radius: 12px;
+border: none;
+text-align: center;
+padding: 20px;
+}
+
+    .modal-header {
+        border-bottom: none;
+        justify-content: center;
+    }
+
+    .modal-body {
+        font-size: 18px;
+        font-weight: 500;
+        color: #333;
+    }
+
+    .success-icon {
+        font-size: 50px;
+        color: #28a745; /* Verde sucesso */
+        animation: pop 0.4s ease-in-out;
+    }
+
+    /* Animação do ícone */
+    @keyframes pop {
+        0% {
+            transform: scale(0.5);
+            opacity: 0;
+        }
+        100% {
+            transform: scale(1);
+            opacity: 1;
+        }
+    }
+
+    #successModal .btn-success {
+        background-color: #28a745;
+        border: none;
+        border-radius: 20px;
+        padding: 8px 20px;
+        font-weight: 500;
+    }
+
+    #successModal .btn-success:hover {
+        background-color: #218838;
+    }
+
+    .custom-hover {
+        transition: color 0.3s ease, background-color 0.3s ease; /* Transição suave */
+    }
+
+    .custom-hover:hover {
+        color: #267a0c; /* Cor verde ao passar o mouse */
+        background-color: rgba(47, 46, 46, 0.6); /* Cor de fundo suave */
+    }
+
+    .preco-destaque {
+    text-align: center;
+    background: #f9f9f9;
+    padding: 10px;
+    border-radius: 12px;
+    font-size: 1.1rem;
+    font-weight: bold;
+    box-shadow: 0 0 5px rgba(0,0,0,0.1);
+    margin-top: 10px;
+  }
+
+    .preco-destaque .label {
+        color: #333;
+        margin-right: px;
+        font-weight: normal;
+    }
+
+    .preco-destaque .valor {
+        font-size: 1rem;
+        color: #267a0c; /* Verde vibrante */
+    }
+
